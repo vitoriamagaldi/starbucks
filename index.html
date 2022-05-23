@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+            <div id="menu-btn" class="bx bx-grid-alt"></div>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What´s new</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>It´s not just a coffee <br>it´s <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aperiam iste explicabo molestiae dolorum doloribus, molestias quam incidunt unde quisquam sed tempore similique illo, odit porro odio!</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+            <div class="image">
+                <img src="images/img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="slide('images/img1.png'); circlecolor('#017143')" alt=""></li>
+            <li><img src="images/thumb2.png" onclick="slide('images/img2.png'); circlecolor('#eb7495')" alt=""></li>
+            <li><img src="images/thumb3.png" onclick="slide('images/img3.png'); circlecolor('#d752b1')" alt=""></li>
+        </ul>
+    </section>
+    <ul class="social">
+        <li><i class='bx bxl-instagram-alt'></i></li>
+        <li><i class='bx bxl-facebook-circle' ></i></li>
+        <li><i class='bx bxl-twitter'></i></li>
+    </ul>
+    <script src="java.js">
+    </script>
+</body>
+</html>
